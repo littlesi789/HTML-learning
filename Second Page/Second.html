@@ -1,0 +1,96 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Littlesi学习HTML的网页2</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+h1 {color:green;font-family:"Times New Roman","幼圆",sans-serif;}
+p {margin-left:50px;color:black;font-family:Helvetica,sans-Serif;}
+body {background-color:#EAF2D3;}
+table, td, th
+{
+	border:1.5px solid grey;
+    width=100px;
+}
+th{
+    height:100px;
+    width:162px;
+    font-size:16pt;
+}
+th.a
+{
+	background-color:#00FFCB;
+	color:black;
+    height:30px;
+}
+th.b
+{
+	background-color:#DDEE00;
+	color:black;
+}
+td{
+    height:40px;
+    text-align:left;
+    vertical-align:bottom;
+    padding-left:5px;
+    font-size:16pt;
+}
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid violet;
+    padding: 25px;
+    margin: 40px;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center;text-shadow:2px 2px white;">学习HTML的网页2</h1>
+<div style="text-align:center;">这是littlesi为了学习CSS做的网页。</div>
+<p id="demo">
+这是你头发的颜色。
+</p>
+<script>
+function myFunction()
+{
+	x=document.getElementById("demo") // 找到元素
+	x.style.color="#00cd00";          // 改变样式
+}
+</script>
+<button type="button" onclick="myFunction()">点我变色</button>
+<p>
+&lt&nbsp&gt <!this is a note>
+</p>
+<p>
+<table style="border-collapse:collapse;">
+<tr>
+<th class="a">Firstname</th>
+<th class="b">Lastname</th>
+<th class="a">Savings</th>
+</tr>
+<tr>
+<td>Peter</td>
+<td>Griffin</td>
+<td>$100</td>
+</tr>
+<tr>
+<td>Lois</td>
+<td>Griffin</td>
+<td>$150</td>
+</tr>
+<tr>
+<td>Joe</td>
+<td style="background-color:#00FFCB;">Swanson</td>
+<td>$300</td>
+</tr>
+<tr>
+<td>Cleveland</td>
+<td>Brown</td>
+<td>$250</td>
+</tr>
+</table>
+<br>
+</p>
+</body>
+</html>

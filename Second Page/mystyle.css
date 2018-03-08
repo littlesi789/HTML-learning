@@ -1,0 +1,38 @@
+h1 {color:green;font-family:"Times New Roman","幼圆",sans-serif;}
+p {margin-left:50px;color:black;font-family:Helvetica,sans-Serif;}
+body {background-color:#EAF2D3;}
+table, td, th
+{
+	border:1.5px solid grey;
+    width=100px;
+}
+th{
+    height:100px;
+    width:162px;
+    font-size:16pt;
+}
+th.a
+{
+	background-color:#00FFCB;
+	color:black;
+    height:30px;
+}
+th.b
+{
+	background-color:#DDEE00;
+	color:black;
+}
+td{
+    height:40px;
+    text-align:left;
+    vertical-align:bottom;
+    padding-left:5px;
+    font-size:16pt;
+}
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid violet;
+    padding: 25px;
+    margin: 40px;
+}
